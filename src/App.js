@@ -42,7 +42,7 @@ const App = () => {
 									id='home' 
 									fetchedUser={fetchedUser} 
 									go={go}
-                  setPopout={setPopout} />
+                  					setPopout={setPopout} />
 							</View>
 						</SplitCol>
 					</SplitLayout>
