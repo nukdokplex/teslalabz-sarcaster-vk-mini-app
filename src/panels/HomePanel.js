@@ -7,6 +7,7 @@ import { Panel, PanelHeader, Text, Link, Header, Button, Group, Cell, Div, Avata
 import { Icon16CopyOutline, Icon24ExternalLinkOutline } from '@vkontakte/icons';
 
 import "./HomePanel.css";
+import kris from  "../img/kris.png";
 
 
 function alterCases(value) {
@@ -31,8 +32,6 @@ const HomePanel = ({ id, go, fetchedUser }) => {
   const [test, setTest] = useState(0);
 
   const alteredTextarea = document.getElementById("altered_case__textarea");
-
-  
 
   useEffect(() => {
     if (!visitIssued){
@@ -145,6 +144,9 @@ const HomePanel = ({ id, go, fetchedUser }) => {
           </Text>
         </div>
       </Group>
+      <center>
+        <img src={kris}></img>
+      </center>
       {snackbar}
 	  </Panel>
   );
