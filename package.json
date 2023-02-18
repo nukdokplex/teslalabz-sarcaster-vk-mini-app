@@ -1,6 +1,6 @@
 {
   "name": "teslalabz-sarcaster-vk-mini-app",
-  "version": "0.1.0",
+  "version": "0.1",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=0.0.0.0 --port=10888 app_id=8174360 endpoints=[web]",
